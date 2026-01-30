@@ -13,7 +13,8 @@ $`f : B \to \mathbb{R}`$ を連続関数とする．
 
 $$
 \int_{A} (f \circ g)\ |J_g|\cdots(1)
-$$ 及び
+$$
+及び
 $$
 \int_{g(A)} f\cdots(2)
 $$
