@@ -66,7 +66,7 @@ $`g(U)`$ は開集合であり，$`g : U \to g(U)`$ は $`C^1`$ 級同相写像�
 集合
 
 $$
-\left\{ x \in A : J_g(x) = 0 \right\}
+C := \left\{ x \in A : J_g(x) = 0 \right\}
 $$
 
 は閉集合であるから，一般性を失うことなく，
@@ -118,7 +118,7 @@ $$
 
 が成り立つ．
 
-いま， $`\{I_m^n\}_{n\in\mathbb{N}}`$ を並べ直して $`\{J_n\\}_{n\in\mathbb{N}}`$ とし，
+いま， $`\{I_m^n\}_{n\in\mathbb{N}}`$ を並べ直して $`\{J_n\}_{n\in\mathbb{N}}`$ とし，
 
 $$
 B_n = \bigcup_{m\leq n}J_m
