@@ -113,12 +113,12 @@ $$
 各 $`n`$ に対して，可算個の閉区間 $`\{ I_m^n \}_{n,m\in\mathbb{N}}`$ が存在して
 
 $$
-\bigcup_{m,n\in\mathbb{N}} I_m^n = U_n
+\bigcup_{m\in\mathbb{N}} I_m^n = U_n
 $$
 
 が成り立つ．
 
-いま， $`\{I_m^n\}_{n\in\mathbb{N}}`$ を並べ直して $`{J_n\}_{n\in\mathbb{N}}`$ とし，
+いま， $`\{I_m^n\}_{n\in\mathbb{N}}`$ を並べ直して $`{J_n}_{n\in\mathbb{N}}`$ とし，
 $$
 B_n = \bigcup_{m<n}J_m
 $$
