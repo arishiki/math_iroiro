@@ -76,7 +76,7 @@ $$
 は閉集合であるから，一般性を失うことなく，
 $U$ 上で $J_g \neq 0$ と仮定してよい．
 
-いま，ある $\delta > 0$ が存在して
+いま，ある $\delta \gt 0$ が存在して
 
 $$
 U(x, \delta) \subset U
@@ -106,7 +106,7 @@ $$
 
 が成り立つ．
 
-以上より，$A'$ は開集合の可算族 $\left\{ U_n \right\}_{n\in\mathbb{N}}$ によって被覆され，
+以上より，$A'$ は開集合の可算族 $\lbrace U_n \rbrace _ {n\in\mathbb{N}}$ によって被覆され，
 各 $U_n$ 上で
 
 - $J_g \neq 0$，
@@ -114,18 +114,18 @@ $$
 
 が成り立つ．
 
-各 $n$ に対して，可算個の閉区間 $\{ I_m^n \}_{n,m\in\mathbb{N}}$ が存在して
+各 $n$ に対して，可算個の閉区間 $\lbrace I _ m^n \rbrace _ {n,m\in\mathbb{N}}$ が存在して
 
 $$
-\bigcup_{m\in\mathbb{N}} I_m^n = U_n
+\bigcup_{m\in\mathbb{N}} I _ m^n = U_n
 $$
 
 が成り立つ．
 
-いま， $\{I_m^n\}$ を並べ直して $\{J_n\}_{n\in\mathbb{N}}$ とし，
+いま， $\lbrace I _ m^n \rbrace$ を並べ直して $\lbrace J _ n \rbrace _ {n\in\mathbb{N}}$ とし，
 
 $$
-B_n = \bigcup_{m\leq n}J_m
+B _ n = \bigcup _ {m\leq n}J _ m
 $$
 
 とし，
