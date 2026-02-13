@@ -122,7 +122,7 @@ $$
 
 が成り立つ．
 
-いま， $ \{I_m^n\}_{n\in\mathbb{N}} $ を並べ直して $\{J_n\}_{n\in\mathbb{N}}$ とし，
+いま， $\{I_m^n\}$ を並べ直して $\{J_n\}_{n\in\mathbb{N}}$ とし，
 
 $$
 B_n = \bigcup_{m\leq n}J_m
