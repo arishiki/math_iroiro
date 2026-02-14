@@ -39,14 +39,14 @@ $$
 各 $n$ について $N_n := N \cap K_n$ とおくと $\mu(N_n)=0$ である．
 
 また $K_n$ はコンパクトで $g$ は $C^1$ 級だから，ある $C_n>0$ が存在して
-$g$ は $K_n$ 上 $C_n$-Lipschitz である（命題〇〇）．  
+$g$ は $K_n$ 上 $C_n$-Lipschitz 連続である（[杉浦II]命題 3.1）．  
 よって
 
 $$
 \mu(g(N_n)) = 0
 $$
 
-である（命題〇〇）．
+である（[杉浦II]命題 3.2）．
 
 ここで $N_n \nearrow N$ なので $g(N_n) \nearrow g(N)$ であり，
 
@@ -117,12 +117,12 @@ $$
 各 $n$ に対して，可算個の閉区間 $\lbrace I _ m^n \rbrace _ {n,m\in\mathbb{N}}$ が存在して
 
 $$
-\bigcup_{m\in\mathbb{N}} I _ m^n = U_n
+\bigcup_{m\in\mathbb{N}} I _ m^n = U _ n
 $$
 
 が成り立つ．
 
-いま， $\lbrace I _ m^n \rbrace$ を並べ直して $\lbrace J _ n \rbrace _ {n\in\mathbb{N}}$ とし，
+いま， $\lbrace I _ m^n \rbrace _  {m, n\in\mathbb{N}}$ を並べ直して $\lbrace J _ n \rbrace _ {n\in\mathbb{N}}$ とし，
 
 $$
 B _ n = \bigcup _ {m\leq n}J _ m
