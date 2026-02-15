@@ -20,6 +20,7 @@ $\int_{A} (f \circ g)\ |J_g|d\mu\cdots(1), \int_{g(A)} fd\mu\cdots(2)$
 
 ## 証明
 
+$N\subset A$ に対し $\mu(N) = 0$ なら $g(N) = 0$ となる．このことは以下のようにしてわかる：
 コンパクト集合の列 $\{K_n\}$ が存在して
 
 $$
@@ -28,17 +29,10 @@ $$
 
 （すなわち $K_n \nearrow A$）となる．
 
-仮定より，ある可測集合 $N \subset A$ が存在して
-
-- $\mu(N) = 0$，
-- $A \setminus N$ 上で $g$ は単射，
-- $A \setminus N$ 上で $J_g \neq 0$
-
-が成り立つ．
 
 各 $n$ について $N_n := N \cap K_n$ とおくと $\mu(N_n)=0$ である．
 
-また $K_n$ はコンパクトで $g$ は $C^1$ 級だから，ある $C_n>0$ が存在して
+また $K_n$ はコンパクトで $g$ は $C^1$ 級だから，ある $C_n \gt 0$ が存在して
 $g$ は $K_n$ 上 $C_n$-Lipschitz 連続である（[杉浦II]命題 3.1）．  
 よって
 
@@ -61,6 +55,14 @@ $$
 $$
 
 を得る．
+
+仮定より，ある可測集合 $N \subset A$ が存在して
+
+- $\mu(N) = 0$，
+- $A \setminus N$ 上で $g$ は単射，
+- $A \setminus N$ 上で $J_g \neq 0$
+
+が成り立つ．
 
 以下，$A \setminus N$ を $A'$ と書く．
 
@@ -128,5 +130,8 @@ $$
 B _ n = \bigcup _ {m\leq n}J _ m
 $$
 
-とし，
+$$
+C _ {n+1} = B _ {n+1} \setminus (B _ n)^\circ, C _ 0 = B _ 0
+$$
+とすると，$\lbrace C _ n \rbrace _ {n\in\mathbb{N}}$ はコンパクト集合の族で任意の $m\neq n$ に対し $\mu(C _ m \cap C _n) = 0$ となる．
 <!-- $$~$$内の\displaylines{ }内で\\により改行使える-->
