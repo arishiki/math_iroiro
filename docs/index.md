@@ -107,8 +107,8 @@ $$
 
 が成り立つ．
 
-以上より，$A'$ は開集合の可算族 $\lbrace U_n \rbrace _ {n\in\mathbb{N}}$ によって被覆され，
-各 $U_n$ 上で
+以上より，$A'$ は開集合の可算族 $\lbrace U _ n \rbrace _ {n\in\mathbb{N}}$ によって被覆され，
+$U _ n \subset A$ であり，各 $U _ n$ 上で
 
 - $J_g \neq 0$，
 - $g$ は $C^1$ 級同相写像
@@ -134,14 +134,28 @@ C _ {n+1} = B _ {n+1} \setminus (B _ n)^\circ, C _ 0 = B _ 0
 $$
 とすると，
 $$
-\begin{aligned}
+\begin{eqnarray}
     \bigcup _ {n \in \mathbb{N}} C _ n &= \bigcup _ {n \in \mathbb{N}} B _ n
          &= \bigcup _ {n \in \mathbb{N}} J _ n \\
          &= \bigcup _ {n \in \mathbb{N}} J _ n \\
          &= \bigcup _ {m, n \in \mathbb{N}} I _ m^n \\
          &= \bigcup _ {n \in \mathbb{N}} U _ n \supset A'
-\end{aligned}
+\end{eqnarray}
 $$
 であり，
 $\lbrace C _ n \rbrace _ {n\in\mathbb{N}}$ はコンパクト集合の族で任意の $m\neq n$ に対し $\mu(C _ m \cap C _n) = 0$ となる．
+
+以下，まず $f$ が $g(A)$ 上非負のケースについて考える．
+任意の $n \in \mathbb{N}$ に対し，
+$$
+\int _ {\bigcup _ {m \leq n} C _ m} f\circ g =
+\sum _ {m \leq n} \int _ {C _ m} f\circ g -
+\int _ {C _ m \setminus \bigcup _ {l \lt m} C _ l} f\circ g.
+$$
+
+一方，$C _ m \setminus \bigcup _ {l \lt m} C _ l  \subset \bigcup _ {l \lt m} C _ l \cap C _ m$ であり，右辺は測度 0 だから，
+$$
+\int _ {\bigcup _ {m \leq n} C _ m} f\circ g =
+\sum _ {m \leq n} \int _ {C _ m} f\circ g.
+$$
 <!-- $$~$$内の\displaylines{ }内で\\により改行使える-->
