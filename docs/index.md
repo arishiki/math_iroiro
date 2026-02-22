@@ -1,6 +1,5 @@
 
 # Lebesgue 積分における変数変換
-* * *
 
 ## 記法
 
@@ -116,7 +115,7 @@ $$
 
 が成り立つ．
 
-各 $n$ に対して，可算個の閉区間 $\lbrace I _ m^n \rbrace _ {n,m\in\mathbb{N}}$ が存在して
+各 $n$ に対して，可算個の有界閉区間 $\lbrace I _ m^n \rbrace _ {n,m\in\mathbb{N}}$ が存在して
 
 $$
 \bigcup_{m\in\mathbb{N}} I _ m^n = U _ n
@@ -133,5 +132,16 @@ $$
 $$
 C _ {n+1} = B _ {n+1} \setminus (B _ n)^\circ, C _ 0 = B _ 0
 $$
-とすると，$\lbrace C _ n \rbrace _ {n\in\mathbb{N}}$ はコンパクト集合の族で任意の $m\neq n$ に対し $\mu(C _ m \cap C _n) = 0$ となる．
+とすると，
+$$
+\begin{aligned}
+    \bigcup _ {n \in \mathbb{N}} C _ n &= \bigcup _ {n \in \mathbb{N}} B _ n
+         &= \bigcup _ {n \in \mathbb{N}} J _ n \\
+         &= \bigcup _ {n \in \mathbb{N}} J _ n \\
+         &= \bigcup _ {m, n \in \mathbb{N}} I _ m^n \\
+         &= \bigcup _ {n \in \mathbb{N}} U _ n \supset A'
+\end{aligned}
+$$
+であり，
+$\lbrace C _ n \rbrace _ {n\in\mathbb{N}}$ はコンパクト集合の族で任意の $m\neq n$ に対し $\mu(C _ m \cap C _n) = 0$ となる．
 <!-- $$~$$内の\displaylines{ }内で\\により改行使える-->
