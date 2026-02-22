@@ -135,7 +135,7 @@ $$
 とすると，
 $$
 \begin{eqnarray}
-    \bigcup _ {n \in \mathbb{N}} C _ n &= \bigcup _ {n \in \mathbb{N}} B _ n
+    \bigcup _ {n \in \mathbb{N}} C _ n &= \bigcup _ {n \in \mathbb{N}} B _ n \\
          &= \bigcup _ {n \in \mathbb{N}} J _ n \\
          &= \bigcup _ {n \in \mathbb{N}} J _ n \\
          &= \bigcup _ {m, n \in \mathbb{N}} I _ m^n \\
