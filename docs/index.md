@@ -139,10 +139,10 @@ $$
          &= \bigcup _ {n \in \mathbb{N}} J _ n \\
          &= \bigcup _ {n \in \mathbb{N}} J _ n \\
          &= \bigcup _ {m, n \in \mathbb{N}} I _ m^n \\
-         &= \bigcup _ {n \in \mathbb{N}} U _ n \supset A'
+         &= \bigcup _ {n \in \mathbb{N}} U _ n
 \end{eqnarray}
 $$
-であり，
+であり， $A' \subset \bigcup _ {n \in \mathbb{N}} U _ n \subset A$ に注意する。
 $\lbrace C _ n \rbrace _ {n\in\mathbb{N}}$ はコンパクト集合の族で任意の $m\neq n$ に対し $\mu(C _ m \cap C _n) = 0$ となる．
 
 以下，まず $f$ が $g(A)$ 上非負のケースについて考える．
