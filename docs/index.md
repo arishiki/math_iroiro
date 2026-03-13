@@ -19,7 +19,7 @@ $\int_{A} (f \circ g)\ |J_g|d\mu\cdots(1), \int_{g(A)} fd\mu\cdots(2)$
 
 ## 証明
 
-$N\subset A$ に対し $\mu(N) = 0$ なら $g(N) = 0$ となる．このことは以下のようにしてわかる：
+$N\subset A$ に対し $\mu(N) = 0$ なら $\mu(g(N)) = 0$ となる．このことは以下のようにしてわかる：
 コンパクト集合の列 $\{K_n\}$ が存在して
 
 $$
@@ -146,16 +146,24 @@ $$
 $\lbrace C _ n \rbrace _ {n\in\mathbb{N}}$ はコンパクト集合の族で任意の $m\neq n$ に対し $\mu(C _ m \cap C _n) = 0$ となる．
 
 以下，まず $f$ が $g(A)$ 上非負のケースについて考える．
+
 任意の $n \in \mathbb{N}$ に対し，
 $$
 \int _ {\bigcup _ {m \leq n} C _ m} f\circ g =
-\sum _ {m \leq n} \int _ {C _ m} f\circ g -
-\int _ {C _ m \setminus \bigcup _ {l \lt m} C _ l} f\circ g.
+\sum _ {m \leq n} \lbrace \int _ {C _ m} f\circ g -
+\int _ {C _ m \cap \bigcup _ {l \lt m} C _ l} f\circ g\rbrace.
 $$
 
-一方，$C _ m \setminus \bigcup _ {l \lt m} C _ l  \subset \bigcup _ {l \lt m} C _ l \cap C _ m$ であり，右辺は測度 0 だから，
+一方，$C _ m \cap \bigcup _ {l \lt m} C _ l  = \bigcup _ {l \lt m} C _ l \cap C _ m$ であり，各 $l \lt m$ に対し $C _ l \cap C _ m$ は測度 0 だから，
+$\int _ {C _ m \cap \bigcup _ {l \lt m} C _ l} f\circ g = 0$ であり，
 $$
 \int _ {\bigcup _ {m \leq n} C _ m} f\circ g =
 \sum _ {m \leq n} \int _ {C _ m} f\circ g.
+$$
+
+非負単調収束定理により、
+$$
+\int _ {\bigcup _ {n \in \mathbb{N}} C _ n} f\circ g =
+\sum _ {n \in \mathbb{N}} \int _ {C _ n} f\circ g.
 $$
 <!-- $$~$$内の\displaylines{ }内で\\により改行使える-->
