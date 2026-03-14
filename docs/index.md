@@ -130,13 +130,12 @@ B _ n = \bigcup _ {m\leq n}J _ m
 $$
 
 $$
-C _ {n+1} = B _ {n+1} \setminus (B _ n)^\circ, C _ 0 = B _ 0
+C _ {n+1} = J _ {n+1} \setminus (B _ n)^\circ, C _ 0 = J _ 0
 $$
-とすると，
+とすると， $C _ n \subset J _ n$ と帰納法により $\bigcup _ {n \in \mathbb{N}} C _ n = \bigcup _ {n \in \mathbb{N}} B _ n$ に注意して，
 $$
 \begin{eqnarray}
     \bigcup _ {n \in \mathbb{N}} C _ n &= \bigcup _ {n \in \mathbb{N}} B _ n \\
-         &= \bigcup _ {n \in \mathbb{N}} J _ n \\
          &= \bigcup _ {n \in \mathbb{N}} J _ n \\
          &= \bigcup _ {m, n \in \mathbb{N}} I _ m^n \\
          &= \bigcup _ {n \in \mathbb{N}} U _ n
@@ -172,5 +171,14 @@ $A \setminus \bigcup _ {n \in \mathbb{N}} C _ n \subset A \setminus A'$ かつ
 $$
 \int _ {\bigcup _ {n \in \mathbb{N}} C _ n} f\circ g |J_g|d\mu = 
 \int _ A f\circ g |J_g|d\mu.
+$$
+
+一方，各 $n\in\mathbb{N}$ に対し，ある $k$ があって， $C _ n$ は有界閉区間の合併で， $C _ n \subset J _ n \subset U _ k$ であり， $U _ k$ 上
+- $J_g \neq 0$，
+- $g$ は $C^1$ 級同相写像
+であることより，Riemann積分版の変数変換公式が使えて，
+$$
+\int _ { C _ n} f\circ g |J_g|d\mu = 
+\int _ {g(C _ n)} f d\mu
 $$
 <!-- $$~$$内の\displaylines{ }内で\\により改行使える-->
